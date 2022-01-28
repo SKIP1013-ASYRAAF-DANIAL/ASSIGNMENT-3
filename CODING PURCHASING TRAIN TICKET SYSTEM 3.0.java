@@ -576,7 +576,7 @@ public class PurchasingTicketSystem3 {
 	    		if (totalSeats[row][col] == 0)
 	    		{
 	    			totalSeats[row][col] = 1;
-	    			System.out.println("You have been assigned an Cafeteria Seat " + col + " in Row" + row);
+	    			System.out.println("You have been assigned a Cafeteria Seat " + col + " in Row" + row);
 	    			System.out.println();
 	    			return;
 	    		}
